@@ -93,6 +93,8 @@ If you want to run yolov3 or yolov3-tiny change ``--model yolov3`` and .weights 
 You can find the outputted image(s) showing the detections saved within the 'detections' folder.
 #### Pre-trained YOLOv4 Model Example
 <p align="center"><img src="data/helpers/result.png" width="640"\></p>
+
+#### Trained YOLOv4 Model (Connected Object Example)
 <p align="center"><img src="data/helpers/result1.png" width="640"\></p>
 
 
