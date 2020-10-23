@@ -1,5 +1,5 @@
 # tensorflow-yolov4-detection-localization
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
+[license](https://img.shields.io/github/license/mashape/apistatus.svg)(LICENSE)
 
 YOLOv4 Implemented in Tensorflow 2.0. 
 Convert YOLO v4, YOLOv3, YOLO tiny .weights to .pb, .tflite and trt format for tensorflow, tensorflow lite, tensorRT.
