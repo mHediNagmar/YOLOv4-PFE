@@ -29,20 +29,21 @@ To implement YOLOv4 using TensorFlow, first we convert the .weights into the cor
 
 Download pre-trained yolov4.weights file: https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT
 
+
 Copy and paste yolov4.weights from your downloads folder into the 'data' folder of this repository.
-# Convert darknet weights to tensorflow
-## yolov4
+## Convert darknet weights to tensorflow
+### yolov4
 python save_model.py --weights ./data/yolov4.weights --output ./checkpoints/yolov4-416 --input_size 416 --model yolov4 
 
 
 
-## Downloading Trained Weights From Drive:
+# Downloading Trained Weights From Drive:
 
 Download pre-trained yolov4.weights file: https://drive.google.com/file/d/1TRQ9JtfG_kb7ugP4wj00DvthPfIucRr9/view?usp=sharing
 
 Copy and paste yolov4-obj.weights from your downloads folder into the 'data' folder of this repository.
 # Convert darknet weights to tensorflow
-## yolov4-obj
+### yolov4-obj
 python save_model.py --weights ./data/yolov4-obj.weights --output ./checkpoints/custom-416 --input_size 416 --model yolov4 
 
 ## Using Custom Trained YOLOv4 Weights : [Camera-Ipod-Laptop-Mobile phone-Tablet computer]
